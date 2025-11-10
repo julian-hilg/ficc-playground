@@ -1,9 +1,6 @@
-Research platform for FICC
+Learning and research ressources for FICC
 
-## Architecture
-```
-Research (Jupyter) → Core Library (Python) → API (FastAPI) → Dashboard (React)
-```
+
 ## Quick Start
 ```bash
 
