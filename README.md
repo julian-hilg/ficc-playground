@@ -33,3 +33,26 @@ npm start
 - **Backend**: FastAPI, QuantLib, YFinance
 - **Frontend**: React, Recharts, Tailwind CSS
 - **Deployment**: Docker, AWS
+
+## Code Style
+
+Follow PEP 8 with these tools:
+
+```bash
+# Format code (line length 100)
+black --line-length 100 ficc/
+
+# Sort imports
+isort ficc/
+
+# Combined command
+black --line-length 100 ficc/ && isort ficc/
+```
+
+**Standards**:
+- Line length: 100 characters
+- Imports: stdlib → third-party → local
+- Type hints required for all functions
+- Docstrings: one-line summary only
+- No verbose comments in code
+- Dictionary returns for all analytics functions
